@@ -1,0 +1,8 @@
+project: savantenvs/pptx2md
+target: fuzz-parser-buggy-mhh-run-6
+# origin: https://app.mayhem.security/mayhemheroes/pptx2md/fuzz-parser/6
+
+cmds:
+  - cmd: /mayhem/fuzz_parser
+    libfuzzer: true
+    timeout: 30
